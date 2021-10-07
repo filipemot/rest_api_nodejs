@@ -21,6 +21,13 @@
     insert  into blog.posts (title, content) values ('First post', 'This is the first post');
 
 
+**Camadas da Aplicação**
+
+**Server**
+- data:  Interface com o Banco de Dados
+- service: Integração com a camada data
+- route: Rotas da Aplicação
+
 **Executar Projeto** 
 
     node server/server.js
@@ -32,10 +39,3 @@
 **Executar Test**
 
     npm test
-
-**Camadas da Aplicação**
-
-**Server**
-- data:  Interface com o Banco de Dados
-- service: Integração com a camada data
-- route: Rotas da Aplicação
